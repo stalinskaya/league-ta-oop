@@ -55,11 +55,11 @@ async function serializePings(messages: string[]) {
 }
 
 async function exampleUsage() {
-	const a = await exampleAsyncFunction(false);
+	  const a = await exampleAsyncFunction(false);
     console.log(a);
 
-	const b = await sleep(3000);
-	console.log(b);
+	  const b = await sleep(3000);
+	  console.log(b);
 
     const c = await ping(2000, 'Ping pong')
     console.log(c);
